@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:70%;
+    padding: 50px;
+    margin: 100px auto;
+    margin-left: auto;
+    background:#ffff;
+    min-height: 100vh;
+    display:grid;
+      grid-template-columns: 2fr 1fr;
+      grid:10px;
+  }
+
+ .title1{
+     color:#01CCAB;
+     text-transform:uppercase !important;
+     
+ }
+ .title2{
+    text-transform:uppercase;
+    margin-top:10px;
+ }
+ p{ 
+     color:#909090;
+     margin-top:10px;
+ }
+ .edu{
+    margin-top:50px;
+ }
+ .heading{
+     font-weight: 700;
+     color:#000000;
+
+ }
