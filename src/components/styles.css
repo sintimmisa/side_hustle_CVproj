@@ -6,7 +6,7 @@
 
 .container {
     width:70%;
-    padding: 50px;
+    padding: 80px;
     margin: 100px auto;
     margin-left: auto;
     background:#ffff;
@@ -14,6 +14,9 @@
     display:grid;
       grid-template-columns: 2fr 1fr;
       grid:10px;
+  }
+  .right{
+      border-left:1px solid #efefef;
   }
 
  .title1{
@@ -23,17 +26,32 @@
  }
  .title2{
     text-transform:uppercase;
-    margin-top:10px;
+    margin:10px 0;
  }
+ 
  p{ 
      color:#909090;
      margin-top:10px;
  }
- .edu{
+ .edu,.work{
     margin-top:50px;
  }
  .heading{
      font-weight: 700;
      color:#000000;
 
+ }
+
+ .work1,.work2{
+     margin-top:10px;
+ }
+
+ .skills{
+     margin-top:150px;
+ }
+ .contact{
+    margin-top:50px;
+ }
+ .language{
+    margin-top:50px;
  }
